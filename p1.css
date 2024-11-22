@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(135deg, #000000, #01050b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:Arial, sans-serif;
+  }
+  
+  .form-container {
+    width: 300px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.178);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .form-container h2 {
+   font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* .form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff;
+  }
+   */
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .in {
+    width: 100%;
+    padding: 10px;
+    background: #03ed2a;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .in:hover{
+    width: 100%;
+    padding: 10px;
+    background: #ffcde3;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  .value{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+  }
+  .sy{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+  }
+  .cu{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+  }
+  .co{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+  }
+  
